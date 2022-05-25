@@ -1,0 +1,164 @@
+
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', Sans Pro, sans-serif;
+
+}
+/***** GRID *****/
+.full-width {   
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {   
+    float: left;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.third-width {   
+    float: left;
+    margin: 0 auto;
+    width: 390px;
+    /*border: 2px solid black;
+    border-color: black;
+    border style: solid;*/
+}
+
+/*****HEADER*****/
+/* header {
+    background-image: url(../img/green-beans.png);
+    background-position: center;
+    width: 1200px;
+    clear: both;
+}
+header h1 { 
+    color: black;
+    font-family: 'Montserrat', serif;
+    font-size: 30px;
+    padding: 35px 6px 0px 0px;
+    text-transform: uppercase;
+    margin: opx 0px;
+}
+header h1 span {
+    color: #77a466;
+}
+    
+nav {
+    float: right; 
+    padding: 45px 6px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    padding-left: 20px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*****IMAGE*****/
+/*.main-image .full-width {
+    /*background: url('../img/green-beans.png');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}*/
+
+/*****TOP SECTION*****/ /*
+.top-section {
+    padding: 0px 80px;
+    font-family: 'Montserrat', serif;
+    margin: 0px 35px;
+    /*background-image: url(../img/green-beans.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.top-section .main-image {
+    background-image: url(../img/green-beans.png);
+    background-position: center;
+    background-size: cover;
+}
+.top-section .main-title {
+    padding: 5px;
+}
+.top-section h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.top-section p {
+    color: black;
+    font-size: 16px;
+    font-weight: regular;
+}
+
+/*****BOTTOM SECTION*****/ /*
+.bottom-section {
+    font-family: 'Montserrat', serif;
+}
+
+.bottom-section h3 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+/*.bottom-section .specials li {
+    text-align: left;
+}
+.bottom-sections .specials .reviews .contact {
+    width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+.bottom-section .specials ul li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    list-style: none;
+}
+.bottom-section .reviews p {
+    padding-right: 40px;
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+}
+.bottom-section .contact li {
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 0px 0px -40px;
+}
+.bottom-section .contact h3 {
+    padding-left: 40px;
+}
+/*#bottom-section .full-width {
+    border: 2px opx;
+    border-style: solid;
+    border-color:  #ededed;
+}*/
+/*#bottom-section .third-width {
+    border: 2px 2px;
+    border-style: solid;
+    border-color: #ededed;
+}*/
+
+/*****FOOTER*****/ /*
+footer {
+    font-family: 'Montserrat', serif;
+    color: black;
+    text-align: center;
+}
+footer span {
+    font-family: 'galada', serif;
+    color: #77a466;
+}*/

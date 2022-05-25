@@ -1,0 +1,152 @@
+
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', Sans Pro, sans-serif;
+
+}
+/***** GRID *****/
+.full-width {   
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {   
+    float: left;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.third-width {   
+    float: left;
+    margin: 0 auto;
+    width: 360px;
+}
+
+/*****HEADER*****/
+header {
+    font-family: 'Montserrat', serif;
+    color: black;
+    text-transform: uppercase;
+    margin: 20px 20px 20px 20px; /* changing -180 to 20*/
+}
+header span {
+    color: #77a466
+}
+nav {
+    float: right; 
+    padding: 20px 5px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    padding-left: 20px; 
+    padding-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*****IMAGE*****/
+/*#top-section {
+    background-image: url('../img/green-beans.png');
+    background-position: center;
+    background-size: inherit;
+    height: 640px;
+    border-top: 2px solid #77a466;
+    border-bottom: 2px solid #77a466;
+}*/
+.main-image img {
+    width: 100%;
+    justify-content: center;
+    border-top: 2px solid #77a466;
+	border-bottom: 2px solid #77a466;
+}
+/*****ABOUT*****/
+#welcome {
+    margin-top: 10px; /*changing margin from -175 to 10*/
+}
+.about {
+    font-family: 'montserrat', serif;
+    padding: 0px 115px;
+    border-bottom: 1px solid #ededed;
+}
+.about h2 {
+    font-size: 18px;
+    color: #77a466;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.about p {
+    font-size: 16px;
+    color: black;
+    font-weight: regular;
+}
+/*****BOTTOM*****/
+
+
+#specials, #reviews, #contact {
+    border-top: 1px solid #ededed;
+
+}
+/*****SPECIALS*****/
+#specials h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #77a466;
+    text-transform: uppercase;
+}
+#specials {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: regular;
+    border-right: 1px solid #ededed;
+}
+
+/*****REVIEWS*****/
+#reviews {
+    border-left: 1px solid #ededed;
+    border-right:1px solid #ededed;
+    padding-left: 20px;
+}
+#reviews h3 {
+    color: black;
+    font-family: 'montserrat', serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#reviews p {
+    color: black;
+    font-family: 'montserrat', serif;
+    font-weight: regular;
+    font-size: 16px;
+    padding-right: 50px;
+}
+/*****CONTACT*****/
+#contact h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+#contact {
+    border-left: 1px solid #ededed;
+    padding-left: 20px;
+}
+
+
+/*****FOOTER*****/
+footer {
+    text-align: center;
+    border-top: 1px solid #ededed;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+footer span {
+    color: #77a466;
+    font-family: 'galada', serif;
+    font-size: 16px;
+    text-transform: lowercase;
+}
